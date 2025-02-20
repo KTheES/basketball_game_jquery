@@ -130,13 +130,13 @@ function onUserShoot(shootType) {
     if(game.shootLeft === 0){
     if(user.score > computer.score){                
       showText('이겼습니다!'); 
-      alert=('이겼습니다'); 
+      alert('이겼습니다'); 
     } else if(computer.score > user.score) {
       showText('졌습니다ㅠㅠㅠ');
-      alert=('졌습니다ㅠㅠㅠ');
+      alert('졌습니다ㅠㅠㅠ');
     }else{
       showText('비겼습니다.');
-      alert=('비겼습니다.');
+      alert('비겼습니다.');
     }
   }
 }
