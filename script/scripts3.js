@@ -85,7 +85,7 @@ function onComputerShoot(){
 
   if(Math.random() < computer['percent' + shootType]) {
     showText('컴퓨터가 ' +shootType + '점 슛을 성공했습니다.');
-    updateComScore(2);
+    updateComScore(shootType);
   } else {
     showText('컴퓨터가 ' +shootType + '점 슛을 실패했습니다.');
   }
